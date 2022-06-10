@@ -65,22 +65,32 @@ function convertRGBToHex() {
         hexColor +=
             hex(val)
     }
-        
+    r_val = document.getElementById('r').value;    
+    g_val = document.getElementById('g').value;    
+    b_val = document.getElementById('b').value;    
+    rgb_val = `rgb(${r_val},${g_val},${b_val})`;
+    const rgbbg=document.getElementById('rgbbg')
+    const hexbg=document.getElementById('hexbg')
+    rgbbg.innerText = rgb_val;
     colorBox.style.backgroundColor = hexColor;
-    colorBoxLabel.innerHTML = hexColor
+    hexbg.innerHTML = hexColor;
+    colorBoxLabel.style.backgroundColor = hexColor;
+    console.log(colorBox.innerText)
 }
 }
 
-function mycopy(){
-	console.log("nihora cpoy")
+
+function copyhex(){
 	let text= document.getElementById('colorBoxLabel').innerText;
 	console.log(text)
 
-
-
-//   text.select("copy")
-
-//   text.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(text);
+  
+	alert('Text Copied! your color code is : '+text )
+	}
+function copyrgb(){
+	let text= document.getElementById('colorBox').innerText;
+	console.log(text)
 
   navigator.clipboard.writeText(text);
   

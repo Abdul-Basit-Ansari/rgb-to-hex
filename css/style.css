@@ -53,6 +53,7 @@ input[type="number"] {
     font-weight: bold;
 }
 
+
 input[type="range"] {
     width: 80%;
 	display: block;
@@ -94,18 +95,43 @@ input[type="range"]::-moz-range-thumb {
     padding: 0;
     margin: 0;
     text-align: center;
-    transition: all .32s;
+	font-size: 2rem;
+	line-height: 3rem;
+	transition: all .30s;
+	border-bottom: .1rem solid black;
+	color: rgb(61, 69, 138);
 }
 
 .colorBoxLabel {
+	transition: all .30s;
 	margin-bottom: 1rem;
+	border-top: .1rem solid rgb(255, 255, 255);
     text-align: center;
-    background-color: rgb(109, 109, 109);
     border-radius: 0% 0% 3000vw 3000vw;
-    font-size: 2rem;
-    color: #3a3a3a;
-    padding: 1rem 1rem;
-    box-shadow: .2rem .5rem .5rem #5c5757;
+	height: 4rem;
+    box-shadow: .2rem .5rem .5rem rgb(92, 87, 87);
 
 }
+#rgbbg{
+    text-align: center;
+    border-radius: 0% 0% 3000vw 3000vw;
+    font-size: 2rem;
+	color: rgb(57, 56, 56);
+	background-color: #5c5757;
+    padding: .5rem 5.5rem;
+	line-height: 3rem;
+    box-shadow: .2rem .5rem .5rem rgb(92, 87, 87);
 
+}
+#hexbg{
+	text-align: center;
+    border-radius: 0% 0% 3000vw 3000vw;
+    font-size: 2rem;
+	color: rgb(57, 56, 56);
+	background-color: #5c5757;
+    padding: .5rem 3rem;
+	line-height:3.3rem;
+    box-shadow: .2rem .5rem .5rem rgb(92, 87, 87);
+
+
+}

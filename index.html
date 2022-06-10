@@ -17,9 +17,8 @@
 				<span class="h1span">By Abdul Basit Ansari</span>
 			</h1>
 		</div>
-		<div id="colorBox" class="colorBox">
-		</div>
-		<div id="colorBoxLabel" class="colorBoxLabel" onclick="mycopy()"></div>
+		<div id="colorBox" class="colorBox" onclick="copyrgb()"><span id="rgbbg"></span></div>
+		<div id="colorBoxLabel" class="colorBoxLabel" onclick="copyhex()"><span id="hexbg"></span></div>
     
     <div class="container">
         <label for="r">R</label>
@@ -34,7 +33,8 @@
         <input id="b" class="color-text"  type="number" min="0" max="255" value="0"/>
         <input class="colorBars" name="b" type="range" max="255" min="0" value="0"/>
 		
-		<p>Click Hex Code To Copy Hex Code</p>
+   
+		<p>Click Code To Copy Color Code</p>
     </div>
 
     </body>
