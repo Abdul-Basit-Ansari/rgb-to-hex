@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+        <title>Page Title</title>
+    </head>
+    
+    <body>
+		<div class="nav">
+			<h1 class="h1">Rgb To Hex Converter&nbsp;&nbsp;:
+
+				
+				<span class="h1span">By Abdul Basit Ansari</span>
+			</h1>
+		</div>
+		<div id="colorBox" class="colorBox">
+		</div>
+		<div id="colorBoxLabel" class="colorBoxLabel" onclick="mycopy()"></div>
+    
+    <div class="container">
+        <label for="r">R</label>
+        <input id="r" class="color-text"  type="number" value="0" min="0" max="255">           
+        <input class="colorBars" name="r" type="range" max="255" min="0" value="0">
+        
+        <label for="g">G</label>
+        <input id="g" class="color-text"  type="number" min="0" max="255" value="0"/>  
+        <input class="colorBars" name="g" type="range" max="255" min="0" value="0"/>
+        
+        <label for="b">B</label>
+        <input id="b" class="color-text"  type="number" min="0" max="255" value="0"/>
+        <input class="colorBars" name="b" type="range" max="255" min="0" value="0"/>
+		
+		<p>Click Hex Code To Copy Hex Code</p>
+    </div>
+
+    </body>
+</html>
