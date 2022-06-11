@@ -115,10 +115,10 @@ input[type="range"]::-moz-range-thumb {
 #rgbbg{
     text-align: center;
     border-radius: 0% 0% 3000vw 3000vw;
-    font-size: 2rem;
+    font-size: 100%;
 	color: rgb(57, 56, 56);
 	background-color: #5c5757;
-    padding: .5rem 5.5rem;
+    padding: .5rem 10%;
 	line-height: 3rem;
     box-shadow: .2rem .5rem .5rem rgb(92, 87, 87);
 
@@ -126,10 +126,10 @@ input[type="range"]::-moz-range-thumb {
 #hexbg{
 	text-align: center;
     border-radius: 0% 0% 3000vw 3000vw;
-    font-size: 2rem;
+    font-size: 2.2em;
 	color: rgb(57, 56, 56);
 	background-color: #5c5757;
-    padding: .5rem 3rem;
+    padding: .5rem 5%;
 	line-height:3.3rem;
     box-shadow: .2rem .5rem .5rem rgb(92, 87, 87);
 
